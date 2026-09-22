@@ -1,0 +1,58 @@
+/*
+  Med-A design tokens — the single place to change colour, spacing and type.
+  Later team-supplied visual assets must not change consent behaviour or flow.
+*/
+:root {
+  /* Neutral background, dark text, one restrained accent. */
+  --c-bg: #f6f7f9;
+  --c-surface: #ffffff;
+  --c-surface-muted: #f0f2f5;
+  --c-border: #d6dae0;
+  --c-border-strong: #b6bcc5;
+  --c-text: #1b2027;
+  --c-text-muted: #545c68;
+  --c-text-faint: #6f7783;
+
+  --c-accent: #1f5f8b;
+  --c-accent-hover: #184a6d;
+  --c-accent-soft: #e8f0f6;
+
+  --c-ok: #1f6b4a;
+  --c-ok-soft: #e6f2ec;
+  --c-warn: #8a5a12;
+  --c-warn-soft: #fbf1df;
+  --c-private: #5a4a86;
+  --c-private-soft: #efecf8;
+
+  --c-focus: #0b63ce;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.35rem;
+  --fs-2xl: 1.7rem;
+  --lh-body: 1.6;
+
+  --shadow-sm: 0 1px 2px rgba(20, 25, 33, 0.06);
+  --shadow-md: 0 2px 10px rgba(20, 25, 33, 0.08);
+
+  --sidebar-w: 232px;
+  --maxw-content: 780px;
+
+  /* Asset hooks. Replace the value, not the flow. */
+  --asset-logo: url("/assets/logo.svg");
+}
